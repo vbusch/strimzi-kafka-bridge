@@ -69,7 +69,7 @@ public abstract class HttpBridgeTestBase {
 
     protected static String kafkaUri;
 
-    protected static long timeout = 5L;
+    protected static long timeout = 10L;
 
     static {
         if ("FALSE".equals(KAFKA_EXTERNAL_ENV)) {
